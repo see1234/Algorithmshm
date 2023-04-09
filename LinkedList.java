@@ -13,7 +13,6 @@ public class LinkedList {
         }
     }
 
-    // Метод для разворота списка
     public void reverse() {
         Node prev = null;
         Node current = head;
@@ -28,7 +27,7 @@ public class LinkedList {
         head = prev;
     }
 
-    // Метод для добавления элемента в список
+
     public void push(int new_data) {
         Node new_node = new Node(new_data);
         new_node.next = head;
@@ -39,7 +38,6 @@ public class LinkedList {
         head = new_node;
     }
 
-    // Метод для вывода списка
     public void printList() {
         Node tnode = head;
         while (tnode != null) {
@@ -49,7 +47,7 @@ public class LinkedList {
         System.out.println();
     }
 
-    // Метод для сортировки списка методом пузырька
+   
     public void bubbleSort() {
         if (head == null) {
             return;
@@ -76,7 +74,7 @@ public class LinkedList {
         } while (swapped);
     }
 
-    // Тестовый пример
+    // Г’ГҐГ±ГІГ®ГўГ»Г© ГЇГ°ГЁГ¬ГҐГ°
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.push(4);
