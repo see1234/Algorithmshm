@@ -74,7 +74,6 @@ public class LinkedList {
         } while (swapped);
     }
 
-    // Òåñòîâûé ïðèìåð
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.push(4);
